@@ -7,6 +7,7 @@ html {
     margin: 0;
     font-family: "Roboto", sans-serif;
     background-color: #fff;
+    @extend .text-color;
 }
 
 .small {
@@ -64,6 +65,10 @@ html {
 
 .bg-orange {
     background-color: #fba905;
+}
+
+.text-color {
+    color: #525252;
 }
 
 .btn-cta-header {

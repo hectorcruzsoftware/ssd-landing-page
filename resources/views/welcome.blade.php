@@ -39,6 +39,26 @@
             </div>
         </div>
     </header>
+    <section id="info-header">
+        <div class="container">
+            <h1>
+                hacemos tu computadora <span class="color-blue-700">más rápida</span>
+            </h1>
+            <div class="garantizado">
+                servicio garantizado
+            </div>
+
+            <div class="row text-center">
+                <div class="col-6">
+                    <iframe src="https://www.youtube.com/watch?v=HRV1MSfMh58" width="560" height="315" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -354,7 +354,7 @@ template {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .h4, .h5, #info-header .garantizado, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -376,7 +376,7 @@ h4, .h4 {
   font-size: 1.5rem;
 }
 
-h5, .h5 {
+h5, .h5, #info-header .garantizado {
   font-size: 1.25rem;
 }
 
@@ -10020,34 +10020,34 @@ html {
 }
 
 .smaller, .menu-header nav a {
-  font-size: 14.4px;
+  font-size: 0.9rem;
 }
 
 .base {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .h1 {
-  font-size: 54.931640625px;
+  font-size: 3.4332275391rem;
 }
 
 .h2 {
-  font-size: 43.9453125px;
+  font-size: 2.7465820313rem;
 }
 
 .h3 {
-  font-size: 35.15625px;
+  font-size: 2.197265625rem;
 }
 
 .h4 {
-  font-size: 28.125px;
+  font-size: 1.7578125rem;
 }
 
-.h5 {
-  font-size: 22.5px;
+.h5, #info-header .garantizado {
+  font-size: 1.40625rem;
 }
 
-.font-300, .menu-header nav a {
+.font-300, #info-header .garantizado, .menu-header nav a {
   font-weight: 300;
 }
 
@@ -10055,7 +10055,7 @@ html {
   font-weight: 400;
 }
 
-.font-700 {
+.font-700, #info-header h1 {
   font-weight: 700;
 }
 
@@ -10069,6 +10069,11 @@ html {
 
 .bg-orange, .btn-cta-header {
   background-color: #fba905;
+}
+
+.text-color, body,
+html {
+  color: #525252;
 }
 
 .btn-cta-header {
@@ -10118,4 +10123,17 @@ html {
 }
 .menu-header nav a:hover {
   color: #fff;
+}
+
+#info-header {
+  padding: 4rem 0 4rem 0;
+}
+#info-header h1 {
+  font-size: 3.4332275391rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+#info-header .garantizado {
+  font-style: italic;
+  text-align: center;
 }

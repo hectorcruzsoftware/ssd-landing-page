@@ -1,0 +1,15 @@
+#info-header {
+    padding: 4rem 0 4rem 0;
+    h1 {
+        font-size: $h1;
+        text-align: center;
+        text-transform: uppercase;
+        @extend .font-700;
+    }
+
+    .garantizado {
+        font-style: italic;
+        @extend .h5, .font-300;
+        text-align: center;
+    }
+}
