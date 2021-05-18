@@ -80,3 +80,20 @@ html {
         @extend .small, .font-400;
     }
 }
+
+.btn-cta {
+    text-decoration: none !important;
+    text-align: center;
+    @extend .bg-orange;
+    padding: 0.5rem $small 0.5rem $small;
+    border-radius: 0.2rem;
+    span {
+        @extend .small, .font-400;
+    }
+    text-transform: uppercase;
+    color: #eee;
+    &:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+}

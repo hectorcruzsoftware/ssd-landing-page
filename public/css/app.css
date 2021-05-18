@@ -422,6 +422,7 @@ hr {
 
 small,
 .small,
+.btn-cta span,
 .btn-cta-header span {
   font-size: 80%;
   font-weight: 400;
@@ -10015,7 +10016,7 @@ html {
   background-color: #fff;
 }
 
-.small, .btn-cta-header span {
+.small, .btn-cta span, .btn-cta-header span {
   font-size: 1rem;
 }
 
@@ -10051,7 +10052,7 @@ html {
   font-weight: 300;
 }
 
-.font-400, .btn-cta-header span {
+.font-400, .btn-cta span, .btn-cta-header span {
   font-weight: 400;
 }
 
@@ -10059,7 +10060,7 @@ html {
   font-weight: 700;
 }
 
-.color-blue-700 {
+.color-blue-700, #service .paquetes .paquete .select-paquete, #info-header .beneficios ul li:first-child {
   color: #007ee5;
 }
 
@@ -10067,7 +10068,7 @@ html {
   background-color: #007ee5;
 }
 
-.bg-orange, .btn-cta-header {
+.bg-orange, .btn-cta, .btn-cta-header {
   background-color: #fba905;
 }
 
@@ -10081,11 +10082,24 @@ html {
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 0.2rem;
 }
+.btn-cta {
+  text-decoration: none !important;
+  text-align: center;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  color: #eee;
+}
+.btn-cta:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
 /*menu del header*/
 .menu-header {
   margin: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .menu-header nav ul {
     margin: 0;
     padding: 0;
@@ -10102,7 +10116,7 @@ html {
     padding: 1rem 0 0 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .menu-header nav ul {
     margin: 0;
     padding: 0;
@@ -10119,21 +10133,60 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   text-decoration: none;
-  color: #e9e9e9;
+  color: #eee;
 }
 .menu-header nav a:hover {
   color: #fff;
 }
 
-#info-header {
-  padding: 4rem 0 4rem 0;
+#info-header iframe {
+  width: 340px;
+  height: 290px;
+}
+@media (min-width: 768px) {
+  #info-header iframe {
+    width: 460px;
+    height: 340px;
+  }
 }
 #info-header h1 {
-  font-size: 3.4332275391rem;
+  font-size: 2.7465820313rem;
   text-align: center;
   text-transform: uppercase;
 }
 #info-header .garantizado {
   font-style: italic;
   text-align: center;
+}
+#info-header .beneficios ul {
+  display: block;
+}
+#info-header .beneficios ul li {
+  line-height: 2rem;
+  list-style: none;
+}
+
+#service .adquirir {
+  display: inline-block;
+  padding: 1rem 2rem 1rem 2rem;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+#service .paquetes .paquete {
+  padding: 2rem;
+  margin: 0 auto 0 auto;
+  max-width: 100% !important;
+  text-align: center;
+}
+#service .paquetes .paquete img {
+  width: 50%;
+}
+#service .paquetes .paquete .select-paquete {
+  text-decoration: none;
+}
+#service .paquetes .paquete .select-paquete:hover {
+  cursor: pointer;
+}
+#service .paquetes .paquete:hover {
+  background-color: #e9e9e9;
 }

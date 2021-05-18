@@ -20,7 +20,7 @@ $font-size-base-app: 1.125rem !default;
     @return $value;
 }
 
-//$font-size-large:         ceil(($font-size-base * 1.25)) !default; se removió, al parecer no estaba utilizada por ninguna otro estilo
+//$font-size-lar!ge:         ceil(($font-size-base * 1.25)) !default; se removió, al parecer no estaba utilizada por ninguna otro estilo
 $small: 1rem;
 $base: $font-size-base-app;
 $smaller: $font-size-base-app / exponente(1);
