@@ -1,0 +1,77 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+}
+
+.small {
+    font-size: $small;
+}
+
+.smaller {
+    font-size: $smaller;
+}
+
+.base {
+    font-size: $base;
+}
+
+.h1 {
+    font-size: $h1;
+}
+
+.h2 {
+    font-size: $h2;
+}
+
+.h3 {
+    font-size: $h3;
+}
+
+.h4 {
+    font-size: $h4;
+}
+
+.h5 {
+    font-size: $h5;
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+.font-700 {
+    font-weight: 700;
+}
+
+// Colores del proyecto
+
+.color-blue-700 {
+    color: #007ee5;
+}
+
+.bg-blue-700 {
+    background-color: #007ee5;
+}
+
+.bg-orange {
+    background-color: #fba905;
+}
+
+.btn-cta-header {
+    text-align: center;
+    @extend .bg-orange;
+    padding: 0.5rem $small 0.5rem $small;
+    border-radius: 0.2rem;
+    span {
+        @extend .small, .font-400;
+    }
+}

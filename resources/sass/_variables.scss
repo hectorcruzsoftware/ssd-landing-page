@@ -1,0 +1,43 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+$scale: 1.25;
+
+$font-size-base-app: 18px !default;
+
+@function exponente($exponent) {
+    $value: 1;
+    @if $exponent>0 {
+        @for $i from 1 through $exponent {
+            $value: $value * $scale;
+        }
+    }
+    @return $value;
+}
+
+//$font-size-large:         ceil(($font-size-base * 1.25)) !default; se removió, al parecer no estaba utilizada por ninguna otro estilo
+$small: 1rem;
+$base: $font-size-base-app;
+$smaller: $font-size-base-app / exponente(1);
+$h5: $font-size-base-app * exponente(1);
+$h4: $font-size-base-app * exponente(2);
+$h3: $font-size-base-app * exponente(3);
+$h2: $font-size-base-app * exponente(4);
+$h1: $font-size-base-app * exponente(5);
+
+// Colors
+$blue: #007ee5;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
