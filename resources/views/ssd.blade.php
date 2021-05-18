@@ -145,7 +145,7 @@
                                 PAQUETE PC RÁPIDA
                             </div>
                             <div class="mt-0">
-                                $ 1,100 MXN
+                                $ 1,100.00 MXN
                             </div>
                             <div>
                                 120 GB de almacenamiento,
@@ -164,7 +164,7 @@
                                 PAQUETE PC PROFESIONAL
                             </div>
                             <div class="mt-0">
-                                $ 1,100 MXN
+                                $ 1,350.00 MXN
                             </div>
                             <div>
                                 240 GB de almacenamiento,
@@ -185,7 +185,7 @@
                                 PAQUETE PC PLUS
                             </div>
                             <div class="mt-0">
-                                $ 1,100 MXN
+                                $ 1,450.00 MXN
                             </div>
                             <div>
                                 256 GB de almacenamiento.
@@ -204,7 +204,7 @@
                                 PAQUETE PC VIP
                             </div>
                             <div class="mt-0">
-                                $ 1,100 MXN
+                                $ 1,950.00 MXN
                             </div>
                             <div>
                                 512 GB de almacenamiento,
@@ -235,11 +235,11 @@
                             para comprobar si este servicio aumentó la velocidad de su
                             computadora. De no ser así tiene derecho a pedir su reembolso del 100% sobre el servicio
                             (costo del componente y
-                            configuración de programas) sin riesgo de perder tu dinero si no funciona, la garantía no
+                            configuración) sin riesgo de perder tu dinero si no funciona, la garantía no
                             aplica para costos de otros
-                            servicios que haya solicitado como parte del mismo, como limpiezas o la compra de otros
+                            servicios que haya solicitado como parte del mismo, como limpiezas, compra de otros
                             componentes diferentes a la
-                            unidad de estado sólido.
+                            unidad de estado sólido, programas o aplicaciones extras a este servicio.
                         </li>
                         <li>
                             <span class="font-weight-bold">*</span> El servicio se lleva cabo en las instalaciones de
@@ -250,6 +250,13 @@
                             <span class="font-weight-bold">*</span> El tiempo aproximado del servicio requiere de 3 a 6
                             horas hábiles, se puede extender según la cantidad de respaldo y las
                             condiciones de su equipo.
+                        </li>
+                        <li>
+                            <span class="font-weight-bold">*</span> Todo servicio extra a la instalación y configuración
+                            de la unidad SSD que incluye este servicio tales como, reparación
+                            de algún componente, carcasa, respaldo extra, instalación y configuración de programas
+                            especiales(Photoshop, Autocad,
+                            Corel Draw, Illustrator, etc.) tiene un costo extra.
                         </li>
                         <li>
                             <span class="font-weight-bold">*</span> En caso de requerir factura, el costo total del
