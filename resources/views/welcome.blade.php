@@ -4,60 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="{{ url('images/ico.ico') }}">
+    <title>Quiero mi PC más rápida | PcyLap Mazatlán</title>
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-
     <!-- Scripts -->
     <script src="{{asset('js/app.js')}}"></script>
-
 </head>
 
 <body>
-    <header class="bg-blue-700 py-4">
+    <header id="header-nav" class="bg-primary-color py-4">
         <div class="container">
             <div class="menu-header">
                 <nav>
                     <ul>
                         <li>
-                            <a href="#" class="btn-cta-header">
+                            <a href="#paquetes" class="btn-cta-header">
                                 <span>
                                     adquirir este servicio
                                 </span>
                             </a>
                         </li>
-                        <li><a href="#">EN QÚE CONSISTE ESTE SERVICIO</a></li>
-                        <li><a href="#">VER GARANTÍA</a></li>
+                        <li><a href="#servicio">EN QÚE CONSISTE ESTE SERVICIO</a></li>
+                        <li><a href="#terminos-garantia">VER GARANTÍA</a></li>
                         <li><a href="https://pcylap.com/contacto/" target="_blank">CONTÁCTANOS</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <section id="info-header" class="py-5">
+    <section id="servicio" class="py-5">
         <div class="container">
             <h1>
-                hacemos tu computadora <span class="color-blue-700">más rápida</span>
+                hacemos tu computadora <span class="primary-color">más rápida</span>
             </h1>
             <div class="garantizado">
                 servicio garantizado
             </div>
 
             <div class="row mt-5">
-                <div class="col lg-12 col-xl-6">
+                <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
                         <iframe src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG"
                             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col lg-12 col-xl-6">
+                <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
-                        <div class="mt-5 mt-lg-0">
+                        <div class="mt-5 mt-xl-0">
                             <span class="h5 font-700">
                                 Beneficios de adquirir este servicio
                             </span>
@@ -99,7 +93,7 @@
                                 </li>
                             </ul>
                             <div class="mt-4">
-                                <a class="btn-cta">
+                                <a class="btn-cta" href="#paquetes">
                                     <span>
                                         adquirir este servicio
                                     </span>
@@ -112,7 +106,7 @@
         </div>
     </section>
 
-    <section id="service" class="py-5 bg-blue-700">
+    <section id="paquetes" class="py-5 bg-primary-color">
         <div class="container">
             <div class="text-center">
                 <div class="adquirir">
@@ -124,15 +118,15 @@
                     </div>
                 </div>
             </div>
-            <div class="paquetes bg-white mt-5 p-5">
+            <div class="paquetes-list bg-white mt-5 p-5">
                 <h3 class="h4 font-weight-bold text-center">
                     Selecciona el paquete que necesitas para tu computadora
                 </h3>
                 <p class="mt-5">
                     Todos los paquetes tienen incluido la instalación tu Sistema Windows y los programas de Office(Word,
-                    Excel, Power Point, etc.), Lectores de PDF Antivirus GRATUITO, respaldo de 50 GB de información sin
+                    Excel, Power Point, etc.), Lectores de PDF, Antivirus GRATUITO, respaldo de 50 GB de información sin
                     costo y servicio de recolección y entrega de tu equipo a domicilio. <span
-                        class="font-weight-bold">Tu solo eliges la capacidad de almacenamiento que
+                        class="font-weight-bold">Tu solo dinos la capacidad de almacenamiento que
                         se adapta a tus necesidades</span>.
                 </p>
 
@@ -151,7 +145,8 @@
                                 Ideal para aquellos que solo quieren tener una PC más rápida.
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="select-paquete base font-300">Quiero este paquete</a>
+                                <a href="https://api.whatsapp.com/send?phone=+526691349443&text=Qu%C3%A9%20tal,%20me%20interesa%20el%20PAQUETE%20PC%20R%C3%81PIDA%20para%20mi%20computadora%20."
+                                    class="select-paquete base font-300" target="_blank">Quiero este paquete</a>
                             </div>
                         </div>
                     </div>
@@ -169,7 +164,8 @@
                                 Ideal para trabajos de la escuela u oficina.
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="select-paquete base font-300">Quiero este paquete</a>
+                                <a href="https://api.whatsapp.com/send?phone=+526691349443&text=Qu%C3%A9%20tal,%20me%20interesa%20el%20PAQUETE%20PC%20PROFESIONAL%20para%20mi%20computadora%20."
+                                    class="select-paquete base font-300" target="_blank">Quiero este paquete</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +185,8 @@
                                 Ideal para quienes necesitan muchas aplicaciones.
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="select-paquete base font-300">Quiero este paquete</a>
+                                <a href="https://api.whatsapp.com/send?phone=+526691349443&text=Qu%C3%A9%20tal,%20me%20interesa%20el%20PAQUETE%20PC%20PLUS%20para%20mi%20computadora%20."
+                                    class="select-paquete base font-300" target="_blank">Quiero este paquete</a>
                             </div>
                         </div>
                     </div>
@@ -207,7 +204,8 @@
                                 Ideal para el trabajo, video juegos y entretenimiento.
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="select-paquete base font-300">Quiero este paquete</a>
+                                <a href="https://api.whatsapp.com/send?phone=+526691349443&text=Qu%C3%A9%20tal,%20me%20interesa%20el%20PAQUETE%20PC%20VIP%20para%20mi%20computadora%20."
+                                    class="select-paquete base font-300" target="_blank">Quiero este paquete</a>
                             </div>
                         </div>
                     </div>
@@ -215,6 +213,101 @@
             </div>
         </div>
     </section>
+
+
+    <section id="terminos-garantia" class="py-5 bg-gray">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="h3 font-weight-bold text-center">
+                    GARANTÍA Y TÉRMINOS DEL SERVICIO
+                </h2>
+                <div class="mt-5">
+                    <ul>
+                        <li>
+                            <span class="font-weight-bold">*</span> Una vez recibido el servicio el cliente tiene 24 hrs
+                            para comprobar si este servicio aumentó la velocidad de su
+                            computadora. De no ser así tiene derecho a pedir su reembolso del 100% sobre el servicio
+                            (costo del componente y
+                            configuración de programas) sin riesgo de perder tu dinero si no funciona, la garantía no
+                            aplica para costos de otros
+                            servicios que haya solicitado como parte del mismo, como limpiezas o la compra de otros
+                            componentes diferentes a la
+                            unidad de estado sólido.
+                        </li>
+                        <li>
+                            <span class="font-weight-bold">*</span> El servicio se lleva cabo en las instalaciones de
+                            PcyLap, ubicado en Local #22 Plaza Las Torres, Av. Las Torres y Paseo
+                            de los Olivos, C.P 82124 Mazatlán, Sin.
+                        </li>
+                        <li>
+                            <span class="font-weight-bold">*</span> El tiempo aproximado del servicio requiere de 3 a 6
+                            horas hábiles, se puede extender según la cantidad de respaldo y las
+                            condiciones de su equipo.
+                        </li>
+                        <li>
+                            <span class="font-weight-bold">*</span> En caso de requerir factura, el costo total del
+                            servicio es más IVA.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formas-de-pago" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="h3 font-weight-bold text-center">
+                    FORMAS DE PAGO
+                </h2>
+                <div class="mt-5">
+                    <img src="{{ url('images/formas-de-pago.svg') }}">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="copyright" class="bg-primary-color py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12  col-lg-6  text-white font-300 text-center text-lg-left">
+                    <div class="">
+                        Copyright PcyLap Tecnologías @ Todos los derechos reservados
+                    </div>
+                    <div>
+                        pcylap.com / servicios@pcylap.com
+                    </div>
+                </div>
+                <div class="col-xs-12  col-lg-6 text-center text-lg-right">
+                    <img src="{{ url('images/logo-pcylap-fondo-obscuro.svg') }}" class="mt-5 mt-lg-0">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=+526691349443&text=Qu%C3%A9%20tal,%20me%20interesa%20el%20servicio%20para%20hacer%20mi%20computadora%20m%C3%A1s%20r%C3%A1pida."
+        target="_blank">
+        <img id="whatsapp" src="{{ url('images/whatsapp.svg') }}" class="d-none d-md-block">
+
+        <img id="whatsapp-movil" src="{{ url('images/whatsapp-movil.svg') }}" class="d-md-none d-block">
+    </a>
+
+
 </body>
 
 </html>
+<script>
+    window.onscroll = function() {myFunction()};
+    // Get the header
+    var header = document.getElementById("header-nav");
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll
+    position
+    function myFunction() {
+    if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    } else {
+    header.classList.remove("sticky");
+    }
+    }
+</script>
