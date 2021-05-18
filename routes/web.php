@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     /**redirige al home de la landing page */
-    return view('welcome');
+    return view('ssd');
 });

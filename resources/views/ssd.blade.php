@@ -5,11 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ url('images/ico.ico') }}">
+
+    <meta name="description" content="Servicio efectivo y con garantía para hacer tu computadora más rápida.">
+    <meta name="keywords" content="PcyLap Mazatlán, Hacer computadora más rápida, Disco SSD">
+    <meta property="og:url" content="{{ url('images/ico.ico') }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Quiero mi PC más rápida | PcyLap Mazatlán">
+    <meta property="og:description" content="Servicio efectivo y con garantía para hacer tu computadora más rápida.">
     <title>Quiero mi PC más rápida | PcyLap Mazatlán</title>
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- Scripts -->
-    <script src="{{asset('js/app.js')}}"></script>
+    <!--<script src="{{asset('js/app.js')}}"></script>-->
 </head>
 
 <body>
@@ -72,12 +79,11 @@
                                     <span class="font-weight-bold">*</span> Mejor rendimiento de toda tu computadora
                                 </li>
                                 <li>
-                                    <span class="font-weight-bold">*</span> Servicio de recolección y entrega del equipo
-                                    hasta
-                                    tu domicilio
+                                    <span class="font-weight-bold">*</span> Recolección y entrega del equipo
+                                    hasta tu domicilio <span class="font-weight-bold">GRATIS</span>
                                 </li>
                                 <li>
-                                    <span class="font-weight-bold">*</span> Instalación tu Sistema Windows y de los
+                                    <span class="font-weight-bold">*</span> Instalación del Windows y de los
                                     programas
                                     de Office(Word, Excel, Power
                                     Point,
@@ -85,7 +91,8 @@
                                     GRATUITO
                                 </li>
                                 <li>
-                                    <span class="font-weight-bold">*</span> 50 GB de respaldo de tus archivos GRATIS
+                                    <span class="font-weight-bold">*</span> 50 GB de respaldo de tus archivos <span
+                                        class="font-weight-bold">GRATIS</span>
                                 </li>
                                 <li>
                                     <span class="font-weight-bold">* DESCUENTOS</span> en el servicio de limpieza de tu
@@ -271,15 +278,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12  col-lg-6  text-white font-300 text-center text-lg-left">
-                    <div class="">
-                        Copyright PcyLap Tecnologías @ Todos los derechos reservados
+                    <div>
+                        * Copyright PcyLap Tecnologías @ Todos los derechos reservados
                     </div>
                     <div>
-                        pcylap.com / servicios@pcylap.com
+                        * Local #22 Plaza Las Torres, Av. Las Torres y Paseo de los Olivos, C.P 82124 Mazatlán, Sin.
+                    </div>
+                    <div>
+                        * pcylap.com / servicios@pcylap.com
                     </div>
                 </div>
                 <div class="col-xs-12  col-lg-6 text-center text-lg-right">
-                    <img src="{{ url('images/logo-pcylap-fondo-obscuro.svg') }}" class="mt-5 mt-lg-0">
+                    <a href="https://pcylap.com" target="_blank"> <img
+                            src="{{ url('images/logo-pcylap-fondo-obscuro.svg') }}" class="mt-5 mt-lg-0"></a>
+
                 </div>
             </div>
         </div>
@@ -295,19 +307,29 @@
 </body>
 
 </html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R19KL6H19S"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R19KL6H19S');
+</script>
+
+
 <script>
     window.onscroll = function() {myFunction()};
-    // Get the header
-    var header = document.getElementById("header-nav");
-    // Get the offset position of the navbar
-    var sticky = header.offsetTop;
-    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll
-    position
-    function myFunction() {
-    if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-    } else {
-    header.classList.remove("sticky");
-    }
-    }
+// Get the header
+var header = document.getElementById("header-nav");
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset > sticky) {
+header.classList.add("sticky");
+} else {
+header.classList.remove("sticky");
+}
+}
 </script>
