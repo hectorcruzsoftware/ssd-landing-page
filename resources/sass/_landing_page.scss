@@ -165,6 +165,7 @@ html {
     .beneficios {
         ul {
             display: block;
+            padding: 0;
             li:first-child {
                 @extend .primary-color;
             }
@@ -214,6 +215,7 @@ html {
 /*garantia*/
 #terminos-garantia {
     ul {
+        padding: 0;
         display: block;
         li {
             line-height: 2rem;

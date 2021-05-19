@@ -224,11 +224,11 @@
 
     <section id="terminos-garantia" class="py-5 bg-gray">
         <div class="container">
-            <div class="text-center">
+            <div class="">
                 <h2 class="h3 font-weight-bold text-center">
                     GARANTÍA Y TÉRMINOS DEL SERVICIO
                 </h2>
-                <div class="mt-5">
+                <div class="mt-5 text-center">
                     <ul>
                         <li>
                             <span class="font-weight-bold">*</span> Una vez recibido el servicio el cliente tiene 24 hrs
