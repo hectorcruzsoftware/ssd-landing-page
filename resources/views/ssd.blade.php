@@ -52,8 +52,8 @@
             <div class="row mt-5">
                 <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
-                        <iframe src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG"
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <video src="{{ url('video/video_pcylap_ssd.mp4') }}" autoplay controls type="video/mp4"
+                            poster="{{ url('images/poster.svg') }}" muted></video>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
@@ -261,6 +261,11 @@
                         <li>
                             <span class="font-weight-bold">*</span> En caso de requerir factura, el costo total del
                             servicio es más IVA.
+                        </li>
+                        <li>
+                            <span class="font-weight-bold">*</span> El servicio no incluye configurar ni instalar
+                            impresoras con las que operaba la computadora antes
+                            de llevar a cabo el servicio. Si requiere de dicho servicio se cotiza como servicio extra.
                         </li>
                     </ul>
                 </div>

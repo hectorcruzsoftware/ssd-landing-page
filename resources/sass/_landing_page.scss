@@ -138,13 +138,14 @@ html {
 
 /*Servicio*/
 #servicio {
-    iframe {
+    video {
         width: 340px;
         height: 290px;
+        margin-top: -20px;
     }
     @media (min-width: 768px) {
-        iframe {
-            width: 460px;
+        video {
+            width: 520px;
             height: 340px;
         }
     }
