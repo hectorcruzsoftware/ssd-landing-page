@@ -52,8 +52,8 @@
             <div class="row mt-5">
                 <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
-                        <video src="{{ url('video/video_pcylap_ssd.mp4') }}" autoplay controls type="video/mp4"
-                            poster="{{ url('images/poster.svg') }}" muted></video>
+                        <iframe src="https://www.youtube.com/watch?v=LQpo9aotINQ" frameborder="0" allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
