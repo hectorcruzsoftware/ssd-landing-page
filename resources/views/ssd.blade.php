@@ -52,8 +52,10 @@
             <div class="row mt-5">
                 <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
-                        <iframe src="https://www.youtube.com/watch?v=LQpo9aotINQ" frameborder="0" allowfullscreen>
-                        </iframe>
+                        <iframe src="https://www.youtube.com/embed/LQpo9aotINQ"
+                            title="La solución mas efectiva para hacer tu PC más RÁPIDA." frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
