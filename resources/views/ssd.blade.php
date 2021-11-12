@@ -14,9 +14,9 @@
     <meta property="og:description" content="Servicio efectivo y con garantía para hacer tu computadora más rápida.">
     <title>Quiero mi PC más rápida | PcyLap Mazatlán</title>
     <!-- Styles -->
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- Scripts -->
-    <!--<script src="{{asset('js/app.js')}}"></script>-->
+    <!--<script src="{{ asset('js/app.js') }}"></script>-->
 </head>
 
 <body>
@@ -52,10 +52,15 @@
             <div class="row mt-5">
                 <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
-                        <iframe src="https://www.youtube.com/embed/LQpo9aotINQ"
-                            title="La solución mas efectiva para hacer tu PC más RÁPIDA." frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <?php
+                        /*
+                                                   <iframe src="https://www.youtube.com/embed/LQpo9aotINQ"
+                                                   title="La solución mas efectiva para hacer tu PC más RÁPIDA." frameborder="0"
+                                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                */
+                        ?>
+                        <img src="{{ url('images/svg.svg') }}">
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
@@ -326,24 +331,29 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R19KL6H19S"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-R19KL6H19S');
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-R19KL6H19S');
 </script>
 
 
 <script>
-    window.onscroll = function() {myFunction()};
-// Get the header
-var header = document.getElementById("header-nav");
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-if (window.pageYOffset > sticky) {
-header.classList.add("sticky");
-} else {
-header.classList.remove("sticky");
-}
-}
+    window.onscroll = function() {
+        myFunction()
+    };
+    // Get the header
+    var header = document.getElementById("header-nav");
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
 </script>
