@@ -54,13 +54,13 @@
                     <div class="text-center">
                         <?php
                         /*
-                                                   <iframe src="https://www.youtube.com/embed/LQpo9aotINQ"
-                                                   title="La solución mas efectiva para hacer tu PC más RÁPIDA." frameborder="0"
-                                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                    allowfullscreen></iframe>
-                                                */
+                                                                           <iframe src="https://www.youtube.com/embed/LQpo9aotINQ"
+                                                                           title="La solución mas efectiva para hacer tu PC más RÁPIDA." frameborder="0"
+                                                                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                            allowfullscreen></iframe>
+                                                                        */
                         ?>
-                        <img src="{{ url('images/svg.svg') }}">
+                        <img src="{{ url('images/svg.svg') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
