@@ -28,11 +28,11 @@
                         <li>
                             <a href="#paquetes" class="btn-cta-header">
                                 <span>
-                                    adquirir este servicio
+                                    quiero este servicio
                                 </span>
                             </a>
                         </li>
-                        <li><a href="#servicio">EN QÚE CONSISTE ESTE SERVICIO</a></li>
+                        <li><a href="#servicio">¿qué incluye?</a></li>
                         <li><a href="#terminos-garantia">VER GARANTÍA</a></li>
                         <li><a href="https://pcylap.com/contacto/" target="_blank">CONTÁCTANOS</a></li>
                     </ul>
@@ -52,14 +52,6 @@
             <div class="row mt-5">
                 <div class="col-lg-12 col-xl-6">
                     <div class="text-center">
-                        <?php
-                        /*
-                                                                           <iframe src="https://www.youtube.com/embed/LQpo9aotINQ"
-                                                                           title="La solución mas efectiva para hacer tu PC más RÁPIDA." frameborder="0"
-                                                                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                                            allowfullscreen></iframe>
-                                                                        */
-                        ?>
                         <img src="{{ url('images/svg.svg') }}" class="img-fluid">
                     </div>
                 </div>
@@ -78,24 +70,22 @@
                                     prendes
                                 </li>
                                 <li>
-                                    <span class="font-weight-bold">* GARANTÍA</span> del servicio sin riesgo de perder
-                                    tu
-                                    dinero
+                                    <span class="font-weight-bold">* GARANTÍA</span> de que si tu computadora no se hace
+                                    más rápida no pagas por la revisión.
                                 </li>
                                 <li>
                                     <span class="font-weight-bold">*</span> Mejor rendimiento de toda tu computadora
                                 </li>
-                                <li>
+
+                                <!-- <li>
                                     <span class="font-weight-bold">*</span> Recolección y entrega del equipo
                                     hasta tu domicilio <span class="font-weight-bold">GRATIS</span>
                                 </li>
+                            -->
+
                                 <li>
-                                    <span class="font-weight-bold">*</span> Instalación del Windows y de los
-                                    programas
-                                    de Office(Word, Excel, Power
-                                    Point,
-                                    etc.), Lectores de PDF Antivirus
-                                    GRATUITO
+                                    <span class="font-weight-bold">*</span> Instalación de Windows, Word, Excel, Power
+                                    Point, lector de PDF y Antivirus <strong>GRATUITO</strong>
                                 </li>
                                 <li>
                                     <span class="font-weight-bold">*</span> 50 GB de respaldo de tus archivos <span
@@ -109,7 +99,7 @@
                             <div class="mt-4">
                                 <a class="btn-cta" href="#paquetes">
                                     <span>
-                                        adquirir este servicio
+                                        quiero este servicio
                                     </span>
                                 </a>
                             </div>
@@ -128,20 +118,20 @@
                         ADQUIRIR ESTE SERVICIO
                     </h2>
                     <div class="text-white text-center h5 font-300">
-                        Costos mas IVA
+                        Costos más IVA
                     </div>
                 </div>
             </div>
             <div class="paquetes-list bg-white mt-5 p-5">
                 <h3 class="h4 font-weight-bold text-center">
-                    Selecciona el paquete que necesitas para tu computadora
+                    Selecciona el paquete que necesitas
                 </h3>
                 <p class="mt-5">
-                    Todos los paquetes tienen incluido la instalación tu Sistema Windows y los programas de Office(Word,
-                    Excel, Power Point, etc.), Lectores de PDF, Antivirus GRATUITO, respaldo de 50 GB de información sin
-                    costo y servicio de recolección y entrega de tu equipo a domicilio. <span
-                        class="font-weight-bold">Tu solo dinos la capacidad de almacenamiento que
-                        se adapta a tus necesidades</span>.
+                    Todos los paquetes incluyen Windows, Word, Excel, Power Point, lectores de PDF y Antivirus GRATUITO,
+                    respaldo
+                    de 50 GB de información sin costo extra. <span class="font-weight-bold">Tu solo dinos que capacidad
+                        de
+                        almacenamiento se adapta a tu trabajo</span>.
                 </p>
 
                 <div class="row mt-5">
